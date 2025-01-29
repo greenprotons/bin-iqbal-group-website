@@ -1,5 +1,4 @@
-import React from "react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/Button";
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 
