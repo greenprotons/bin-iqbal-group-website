@@ -31,7 +31,7 @@ const projects: Project[] = [
     id: 4,
     title: "Industrial Warehouse",
     category: "Industrial",
-    imageUrl: "https://images.unsplash.com/photo-1553855994-ef3569962e51",
+    imageUrl: "https://images.unsplash.com/photo-1553413077-190dd305871c",
   },
   {
     id: 5,
