@@ -14,10 +14,10 @@ const FooterSection = () => {
     <footer className="bg-gray-900 text-gray-300">
       <div className="container mx-auto px-4">
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-32 py-12">
           {/* Company Info */}
           <div>
-            <h3 className="text-white text-lg font-semibold mb-4">BuildCo</h3>
+            <h3 className="text-white text-lg font-semibold mb-4">Bin Iqbal Group</h3>
             <p className="mb-4">
               Excellence in construction and building services since 1995.
               Quality, reliability, and innovation in every project.
@@ -67,7 +67,7 @@ const FooterSection = () => {
           </div>
 
           {/* Quick Links */}
-          <div>
+          {/* <div>
             <h3 className="text-white text-lg font-semibold mb-4">
               Quick Links
             </h3>
@@ -92,42 +92,37 @@ const FooterSection = () => {
                   Blog
                 </a>
               </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  Careers
-                </a>
-              </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Services */}
           <div>
             <h3 className="text-white text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                {/* <a href="#" className="hover:text-white transition-colors"> */}
                   Commercial Construction
-                </a>
+                {/* </a> */}
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                {/* <a href="#" className="hover:text-white transition-colors"> */}
                   Residential Projects
-                </a>
+                {/* </a> */}
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                {/* <a href="#" className="hover:text-white transition-colors"> */}
                   Interior Finishing
-                </a>
+                {/* </a> */}
               </li>
-              <li>
+              {/* <li>
                 <a href="#" className="hover:text-white transition-colors">
                   Project Management
                 </a>
-              </li>
+              </li> */}
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                {/* <a href="#" className="hover:text-white transition-colors"> */}
                   Consulting
-                </a>
+                {/* </a> */}
               </li>
             </ul>
           </div>
@@ -148,7 +143,7 @@ const FooterSection = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="w-5 h-5" />
-                <span>info@buildco.com</span>
+                <span>info@BinIqbalGroup.com</span>
               </li>
             </ul>
           </div>
@@ -158,9 +153,9 @@ const FooterSection = () => {
         <div className="border-t border-gray-800 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p>
-              &copy; {new Date().getFullYear()} BuildCo. All rights reserved.
+              &copy; {new Date().getFullYear()} Bin Iqbal Group. All rights reserved.
             </p>
-            <div className="flex space-x-6 mt-4 md:mt-0">
+            {/* <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="hover:text-white transition-colors">
                 Privacy Policy
               </a>
@@ -170,7 +165,7 @@ const FooterSection = () => {
               <a href="#" className="hover:text-white transition-colors">
                 Cookie Policy
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
