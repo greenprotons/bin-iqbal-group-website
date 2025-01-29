@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/components/ui/button";
 
 interface Project {
   id: number;
@@ -49,7 +49,7 @@ const projects: Project[] = [
 
 const ProjectsSection = () => {
   return (
-    <section className="py-24 bg-white">
+    <section id="projects" className="py-24 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold mb-4">Featured Projects</h2>

@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/Button";
 
 const CtaSection = () => {
   return (
-    <section className="py-24 bg-blue-600">
+    <section id="contact" className="py-24 bg-blue-600">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -16,7 +16,7 @@ const CtaSection = () => {
             Ready to Start Your Construction Project?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Let&apos;s bring your vision to life. Contact us today for a free
+            Let's bring your vision to life. Contact us today for a free
             consultation and project estimate.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

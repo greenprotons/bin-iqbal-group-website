@@ -4,7 +4,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/Card";
+} from "@/components/ui/card";
 import {
   Building2,
   PaintBucket,
@@ -48,16 +48,16 @@ const services: Service[] = [
     description:
       "Specialized construction for industrial and manufacturing facilities.",
   },
-  {
-    icon: <HardHat className="w-10 h-10 text-blue-600" />,
-    title: "Project Management",
-    description: "Expert project management and construction consulting.",
-  },
+  // {
+  //   icon: <HardHat className="w-10 h-10 text-blue-600" />,
+  //   title: "Project Management",
+  //   description: "Expert project management and construction consulting.",
+  // },
 ];
 
 const ServicesSection = () => {
   return (
-    <section className="py-24 bg-white">
+    <section id="services" className="py-24 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold mb-4">Our Services</h2>

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const AboutSection = () => {
   return (
-    <section className="py-24 bg-gray-50">
+    <section id="about" className="py-24 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <motion.div
@@ -16,7 +16,7 @@ const AboutSection = () => {
             <h2 className="text-3xl font-bold">Building Dreams Since 1995</h2>
             <p className="text-lg text-gray-600">
               With over 25 years of experience in the construction industry,
-              we&apos;ve built a reputation for excellence, reliability, and
+              we've built a reputation for excellence, reliability, and
               innovation.
             </p>
             <ul className="space-y-4 text-gray-600">

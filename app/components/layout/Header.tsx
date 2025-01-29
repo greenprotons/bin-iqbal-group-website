@@ -60,7 +60,7 @@ const Header = () => {
             <h1
               className={`text-2xl font-bold ${isScrolled ? "text-gray-900" : "text-white"}`}
             >
-              BuildCo
+              Bin Iqbal Group
             </h1>
           </div>
 
