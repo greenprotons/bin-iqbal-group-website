@@ -3,8 +3,8 @@ import Home from "@/components/Home";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "Bin Iqbal Group" },
+    { name: "description", content: "Bin Iqbal Group" },
   ];
 };
 
