@@ -48,11 +48,11 @@ const services: Service[] = [
     description:
       "Specialized construction for industrial and manufacturing facilities.",
   },
-  // {
-  //   icon: <HardHat className="w-10 h-10 text-blue-600" />,
-  //   title: "Project Management",
-  //   description: "Expert project management and construction consulting.",
-  // },
+  {
+    icon: <HardHat className="w-10 h-10 text-blue-600" />,
+    title: "Project Management",
+    description: "Expert project management and construction consulting.",
+  },
 ];
 
 const ServicesSection = () => {
